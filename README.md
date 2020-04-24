@@ -1,3 +1,14 @@
+# A Start Search Algorithm
+Here are the main steps of the Algorithm:
+
+## Find Start/End nodes from Start/End geolocations
+## Find Neighbors of Start Node
+### Calculate H-Value for each 
+### Calculate G-Value for each
+### Sign and Visited and add OpenList
+### Pull the node from OpenList with the Highest H + G value and repeat till End node is found
+
+
 # Route Planning Project
 
 This repo contains the starter code for the Route Planning project.
