@@ -1,4 +1,4 @@
-# A Start Search Algorithm
+# A * Search Algorithm
 Here are the main steps of the Algorithm:
 
 ## Find Start/End nodes from Start/End geolocations
