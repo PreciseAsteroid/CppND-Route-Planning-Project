@@ -1,12 +1,5 @@
 # A * Search Algorithm
-Here are the main steps of the Algorithm:
-
-## Find Start/End nodes from Start/End geolocations
-## Find Neighbors of Start Node
-### Calculate H-Value for each 
-### Calculate G-Value for each
-### Sign and Visited and add OpenList
-### Pull the node from OpenList with the Highest H + G value and repeat till End node is found
+What I learned through the process - [blog](https://nifty-shannon-f1ac98.netlify.app/astar_search/astar_search/) 
 
 
 # Route Planning Project
