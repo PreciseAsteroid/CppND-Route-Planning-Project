@@ -72,6 +72,5 @@ RouteModel::Node &RouteModel::FindClosestNode(float x, float y) {
             }
         }
     }
-
     return SNodes()[closest_idx];
 }

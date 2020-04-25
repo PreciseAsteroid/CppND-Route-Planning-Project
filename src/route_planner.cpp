@@ -67,12 +67,10 @@ RouteModel::Node *RoutePlanner::NextNode() {
     auto current = this->open_list.back();
     this->open_list.pop_back();
     return current;
-
 }
 
 bool RoutePlanner::Compare(const RouteModel::Node *a, const RouteModel::Node *b ){
-    return (a->g_value + a->h_value)>(b->g_value + b->h_value);
-    
+    return (a->g_value + a->h_value)>(b->g_value + b->h_value);    
 }
 
 
@@ -119,7 +117,5 @@ void RoutePlanner::AStarSearch() {
         this->AddNeighbors(current_node);
         current_node = this->NextNode();
     }
-    this->m_Model.path = this->ConstructFinalPath(current_node);
-    
-
+    this->m_Model.path = this->ConstructFinalPath(current_node);    
 }

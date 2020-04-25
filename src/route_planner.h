@@ -19,7 +19,7 @@ class RoutePlanner {
     float CalculateHValue(RouteModel::Node const *node);
     std::vector<RouteModel::Node> ConstructFinalPath(RouteModel::Node *);
     RouteModel::Node *NextNode();
-    
+    // static funcs
     static bool Compare(const RouteModel::Node *a, const RouteModel::Node *b );
 
 
