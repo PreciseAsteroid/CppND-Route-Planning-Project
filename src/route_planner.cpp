@@ -70,7 +70,7 @@ RouteModel::Node *RoutePlanner::NextNode() {
 }
 
 bool RoutePlanner::Compare(const RouteModel::Node *a, const RouteModel::Node *b ){
-    return (a->g_value + a->h_value)>(b->g_value + b->h_value);    
+    return (a->g_value + a->h_value)>(b->g_value + b->h_value);
 }
 
 
