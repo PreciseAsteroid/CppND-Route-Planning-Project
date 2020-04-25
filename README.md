@@ -1,3 +1,7 @@
+# A * Search Algorithm
+What I learned through the process - [blog](https://nifty-shannon-f1ac98.netlify.app/astar_search/astar_search/) 
+
+
 # Route Planning Project
 
 This repo contains the starter code for the Route Planning project.
